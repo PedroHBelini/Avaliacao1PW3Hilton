@@ -2,7 +2,6 @@ import jakarta.persistence.*;
 import java.util.List;
 //Pedro Bonelli Mecca Pinto
 //Pedro Henrique Belini
-
 public class AlunoDAO {
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("myUnit");
     private EntityManager em = emf.createEntityManager();
